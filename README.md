@@ -7,7 +7,7 @@ Rewrite `tree` in rust.
 Limit the implementation to how `tree` works when no options are passed. Maybe 
 just `-a` for hidden files.
 
-Output example:
+**Output example:**
 ```shell
 foo@bar:~$  tree-rs
 .
@@ -24,7 +24,7 @@ When this is ready, a `--raw` parameter could be implemented, that returns the
 tree structure data for another application to consume. 
 A faster alternative to `json` could be nice for bigger directory structures.
 
-`json` example:
+**`json` example:**
 ```shell
 foo@bar:~$ tree-rs --raw
 [
