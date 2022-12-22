@@ -34,7 +34,7 @@ foo@bar:~$ tree-rs --raw
     {"type":"file","name":"README.md"},
     {"type":"directory","name":"src","contents":[
       {"type":"file","name":"main.rs"}
-    ]}
+    ]},
   ]},
   {"type":"report","directories":1,"files":4}
 ]
